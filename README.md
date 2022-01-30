@@ -1,42 +1,22 @@
-# Pre-work - Get the Tip
+# Get the Tip - iOS Tip Calculator
 
 Get the Tip is a tip calculator application for iOS.
 
-Submitted by: Garrett Born
-
-Time spent: 8 hours spent in total
-
 ## User Stories
 
-The following **required** functionality is complete:
+The following user stories have been implemented:
 
 * [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 * [x] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
-
-The following **optional** features are implemented:
-
-* [ ] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
-* [x] Settings Screen
-* [x] Ability to adjust tip percentages
+* [x] Settings Screen that allows tip percentages to be adjusted
 * [x] Dark Mode
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
-
-The following **additional** features are implemented:
-
 * [x] All keyboards use decimal pads to ensure valid numbers are entered
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a video of the app in action:
 
 ![](https://i.imgur.com/1QFb1uH.gif)
-
-
-## Notes
-
-Only difficulties experienced involved parsing UserDefaults on my own to implement saving next tip percentages and saving dark mode across screens. But once I understood that, these additional features fell into place.
 
 ## License
 
